@@ -1,0 +1,52 @@
+body{
+    background-image: url("tasks3.jpg");
+    background-repeat:no-repeat;
+    background-position: auto;
+    background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    position: relative;
+}
+
+.h1{
+    text-align: center;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 400px;
+    margin-right: 400px;
+    color: white;
+}
+
+mark{
+    color: white;
+    background-color: #5C4033;
+}
+
+#rightbottom{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#taskss{
+    width: 430px;
+    height: 420px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    transform: rotate(-12.5deg);
+    position: absolute;
+
+    margin-top: 255px;
+    margin-left: 300px;
+}
+
+#forms{
+    height: 300px;
+    transform: rotate(-13deg);
+    position: absolute;
+
+    margin-top: 475px;
+    margin-left: 850px;
+}
