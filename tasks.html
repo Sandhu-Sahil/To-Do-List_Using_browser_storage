@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="icon" href="tasks5icon.png" sizes="16">
+    <title>
+        To-Do List
+    </title>
+</head>
+
+<body>
+    <div id="taskss">
+        <h3>
+            <ul id="tasks">
+            
+            </ul>
+        </h3>
+    </div>
+    <div id="forms">
+        <form onsubmit="newtask()">
+            <input type="text" placeholder="New Task" id="input1" autofocus size="40">
+            <input type="submit" id="submit1">
+        </form>
+        --------------------------------------------------------------------
+        <form onsubmit="removingTask()">
+            <select name="Remove Task" placeholder="Remove Task" id="input2" style="max-width: 305px;">
+                <option value="" disabled selected hidden>Choose a task to remove</option>
+            </select>
+            <input type="submit" id="submit2">
+        </form>
+    </div>
+
+    <div id="rightbottom">
+        <h2>
+            <mark>
+                . Made with &#128147; &#169; Sahilsher Singh Sandhu .
+            </mark>
+        </h2>
+    </div>
+
+    <div>
+        <link rel="stylesheet" href="tasks.css">
+        <script src="tasks.js" ></script>
+    </div>
+</body>
