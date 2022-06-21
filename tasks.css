@@ -31,8 +31,8 @@ mark{
 }
 
 #taskss{
-    width: 430px;
-    height: 420px;
+    width: 28%;
+    height: 400px;
     overflow-x: hidden;
     overflow-y: scroll;
     transform: rotate(-12.5deg);
@@ -43,7 +43,7 @@ mark{
 }
 
 #forms{
-    height: 300px;
+    height: 56%;
     transform: rotate(-13deg);
     position: absolute;
 
