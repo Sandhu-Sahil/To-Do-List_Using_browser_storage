@@ -38,8 +38,8 @@ mark{
     transform: rotate(-12.5deg);
     position: absolute;
 
-    margin-top: 255px;
-    margin-left: 300px;
+    margin-top: 17%;
+    margin-left: 20%;
 }
 
 #forms{
@@ -47,6 +47,6 @@ mark{
     transform: rotate(-13deg);
     position: absolute;
 
-    margin-top: 475px;
-    margin-left: 850px;
+    margin-top: 31%;
+    margin-left: 56%;
 }
